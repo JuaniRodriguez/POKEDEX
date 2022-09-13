@@ -1,0 +1,106 @@
+root {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(229, 37, 23);
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+h1 {
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(223, 223, 12);
+}
+
+.poke-titulo {
+    width: 10%;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.text-center {
+    width: 50%;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.col {
+    background-image:linear-gradient(rgba(5,7,12,0.7),rgba(5,7,12,0.7)), url("./poke-default.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+    border: 2px solid rgb(0, 0, 0);
+
+    border-radius: 20px;
+    background-color: rgb(157, 18, 18);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-right: 15px;
+    
+    
+}
+
+
+.card {
+    margin-top: 10px;
+    border:2px solid black;
+    background-color: rgba(11, 202, 245, 0.811);
+    
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.card img {
+    max-width: 70%;
+    
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center ;
+    
+    /*margin-left: 20%;*/
+}
+
+nav {
+    
+    width: 70%;
+}
+
+.page-item {
+    
+    margin: 3px;
+    color: black;
+   
+    
+}
+
+th {
+    font-size: 25px;
+}
+
+td {
+    font-size: 20px;
+}
